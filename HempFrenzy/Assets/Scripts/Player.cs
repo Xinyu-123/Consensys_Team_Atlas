@@ -31,30 +31,35 @@ public class Player : MonoBehaviour
     {
         rb.velocity = new Vector2(speed, rb.velocity.y);
 
-        if(Input.anyKey && isGrounded)
+        if(Input.GetKeyDown("space") && isGrounded)
         {
-            //jumpSound.Play();
+            jumpSound.Play();
             rb.AddForce(jump * jumpForce, ForceMode2D.Impulse);
             isGrounded = false;
         }
     }
 
-    void OnCollisionEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D other)
     {
-        if(col.gameObject.tag == "ground")
+        if (other.gameObject.tag == "ground")
         {
             isGrounded = true;
         }
-        if(col.gameObject.tag == "thunder")
+        if (other.gameObject.tag == "thunder")
         {
             Destroy(this.gameObject);
             sn.GameOver();
         }
-        if(col.gameObject.tag == "coin")
+        if (other.gameObject.tag == "coin")
         {
             sn.YouWin();
         }
-        if(col.gameObject.tag == "hemp")
+    }
+    // When coin intersects the collider (player) when 'is trigger' checked
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        // checks to see if collision is with player
+        if (col.gameObject.tag == "hemp")
         {
             col.gameObject.SetActive(false);
             ImpactPoints++;
