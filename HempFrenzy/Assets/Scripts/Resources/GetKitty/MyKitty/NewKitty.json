@@ -1,0 +1,25 @@
+{
+	"id" : 3,
+	"name" : "Flying Kitty",
+	"address" : "0x88207b431510dbe0addbdae3bd53013813fc8c71",
+	"bio" : "Greetings, human. I am Flying Kitty. The dogs know me as alpha; the cats know me as omega. To your kind, I am a riddle wrapped in an enigma, first found by a user in Mystery, Alaska. I looked into the void and the void looked back. Then I lost interest. I can’t wait to be your new owner!",
+	"image_url": "https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+    "image_url_cdn" : "https://img.cn.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+    "image_url_png" : "https://img.cryptokitties.co/0x06012c8cf97bead5deae237070f9587f8e7a266d/1.png",
+    "image_path" : "",
+    "generation" : 0,
+   	"created_at" : "2017-11-23T06:19:59Z",
+    "color1" : "sizzurp",
+   	"color2" : "purple",
+    "color3" : "green",
+    "is_fancy" : true,
+    "bool is_exclusive" : true,
+    "fancy_type" : "Flying Kitty",
+    "language" : "En",
+    "hatched" : true,
+    "bool is_prestige" : false,
+    "prestige_type" : "null",
+    "prestige_ranking" : "null",
+    "fancy_ranking" : 1
+
+}
