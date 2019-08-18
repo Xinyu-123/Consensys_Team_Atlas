@@ -112,6 +112,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &25698788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4921,6 +4922,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1934720969}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of c4027aa... Merge branch 'master' into Netherium
 --- !u!1 &1955359603
 GameObject:
   m_ObjectHideFlags: 0
@@ -4933,7 +4936,6 @@ GameObject:
   - component: {fileID: 1955359605}
   - component: {fileID: 1955359604}
   - component: {fileID: 1955359607}
-  - component: {fileID: 1955359608}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5000,7 +5002,7 @@ Transform:
   m_GameObject: {fileID: 1955359603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 2.85, y: 2.8385, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -5017,6 +5019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fcbce980203bd0488b569ce389da3cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!114 &1955359608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5426,3 +5429,5 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+>>>>>>> parent of c4027aa... Merge branch 'master' into Netherium
