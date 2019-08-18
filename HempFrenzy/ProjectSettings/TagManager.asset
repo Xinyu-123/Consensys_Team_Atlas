@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - hemp
+  - saw
+  - ground
+  - thunder
+>>>>>>> parent of 074fa77... Level 1 Complete
   layers:
   - Default
   - TransparentFX
