@@ -239,9 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 883133890}
-<<<<<<< HEAD
 
-=======
 --- !u!1 &210258385
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,7 +306,8 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &210258387
->>>>>>> parent of 07fb1df... I give up. Got account balance to work though
+
+
 Transform:
   m_CorrespondingSourceObject: {fileID: 4692025422617822440, guid: 01382bc4d88194e49b641fd2b6e75d52,
     type: 3}
