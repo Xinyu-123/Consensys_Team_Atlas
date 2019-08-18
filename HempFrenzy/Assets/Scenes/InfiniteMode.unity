@@ -239,7 +239,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 883133890}
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 07fb1df... I give up. Got account balance to work though
 --- !u!1 &210258385
 GameObject:
   m_ObjectHideFlags: 0
