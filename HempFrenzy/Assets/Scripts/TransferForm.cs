@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SamplyGame.Ethereum
+namespace HempFrenzy.Ethereum
 {
     [FunctionOutput]
 
