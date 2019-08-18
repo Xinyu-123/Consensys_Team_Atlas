@@ -41,6 +41,6 @@ public class Main : MonoBehaviour
 
     public void YouWin()
     {
-        SceneManager.LoadScene("YouWin");
+        SceneManager.LoadScene("Win");
     }
 }

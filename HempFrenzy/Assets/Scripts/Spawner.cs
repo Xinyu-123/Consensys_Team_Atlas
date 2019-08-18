@@ -18,7 +18,6 @@ public class Spawner : MonoBehaviour
 
         }
 
-        InvokeRepeating("SpawnThunder", 0f, 9.0f);
     }
 
     // Update is called once per frame
@@ -31,8 +30,7 @@ public class Spawner : MonoBehaviour
     {
         for (int i = 0; i < 5; i++)
         {
-            for(int j = 0; j < 3; j++)
-            Instantiate(spawns[2], new Vector3(10 * i + (float)5 + (float)(0.2*j), (float)3, 0), Quaternion.identity);
+            Instantiate(spawns[2], new Vector3(10 * i + 5, (float)3, 0), Quaternion.identity);
         }
     }
 }
