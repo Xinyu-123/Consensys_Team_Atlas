@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiTextEtherBalance: {fileID: 837203279}
-  networkUrl: HTTP://127.0.0.1:7545
+  networkUrl: https://rinkeby.infura.io
   playerEthereumAccount: 0xF2dC4274c39f35ac21012Ed99ac6FbA84d348118
   playerEthereumAccountPK: 9a8b378afd4cc61febc4b726f34d50973b1ccec6aaf649ca83e9382f027d53dc
 --- !u!4 &303970439

@@ -12,15 +12,15 @@ public class Netherium : MonoBehaviour
 {
     public Text uiTextEtherBalance;
 
-    public string networkUrl = "HTTP://127.0.0.1:7545";
+    public string networkUrl = "https://rinkeby.infura.io";
 
     //players wallet
     public string playerEthereumAccount = "0xF2dC4274c39f35ac21012Ed99ac6FbA84d348118";
     public string playerEthereumAccountPK = "9a8b378afd4cc61febc4b726f34d50973b1ccec6aaf649ca83e9382f027d53dc";
 
     //atlas wallet
-    private string contractOwnerAddress = "0xB61eA17cb0F01E547aFA2fFd8aB58141328701e5";
-    private string contractOwnerPK = "f488bcf58b72442ed024718962eef9001547881c4474dbba7030a0f892278798";
+    private string contractOwnerAddress = "0x87f9496D05F9f0E11A07EDDf4E00D8B4E2e189d0";
+    private string contractOwnerPK = "384DFDDE13AA9527B74D04A32EBC1796783446ACCA38F4A39394F29CD34DCAED";
 
     private IEnumerator getAccountBalanceCoroutine;
     private string balanceG;
